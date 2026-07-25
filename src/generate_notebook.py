@@ -421,7 +421,8 @@ node_colors = [GROUP_COLORS.get(NODE_GROUP.get(n, ""), "#cccccc") for n in G.nod
 nx.draw_networkx_nodes(G, pos, node_color=node_colors, node_size=2200, alpha=0.9, ax=ax)
 nx.draw_networkx_labels(G, label_pos, font_size=9, font_weight="bold", verticalalignment="top", ax=ax)
 nx.draw_networkx_edges(G, pos, edge_color="#666666", arrows=True,
-                       arrowsize=22, width=1.8, ax=ax,
+                       arrowsize=20, width=1.8, node_size=2600,
+                       min_source_margin=15, min_target_margin=20, ax=ax,
                        connectionstyle="arc3,rad=0.08")
 
 handles = [plt.Line2D([0], [0], marker="o", color="w", label=GROUP_LABELS[g],
