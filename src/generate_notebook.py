@@ -436,13 +436,13 @@ plt.show()
 """)
 
     # =================================================================
-    # SECTION 6 — ESTIMASI EFEK KAUSAL (IPW & MATCHING)
+    # SECTION 6 — PENDEKATAN QUASI-EXPERIMENT (IPW & MATCHING)
     # =================================================================
     md("""
 ---
-## 6. Estimasi Efek Kausal — Propensity Score Matching & IPW
+## 6. Pendekatan Quasi-Experiment — Estimasi Efek Kausal (IPW & Matching)
 
-Setelah memetakan DAG, kini saatnya kita mengeksekusi "sihir" inferensi kausal untuk mengubah data survei observasional biasa menjadi seakurat uji coba klinis eksperimental (*Randomized Controlled Trial / RCT*). Kuncinya adalah **Propensity Score** ($P(T=1|X)$).
+Setelah memetakan DAG pada Bab 5, kini saatnya kita mengeksekusi pendekatan **Quasi-Experiment (Eksperimen Semu)** berbasis inferensi kausal untuk mengubah data survei observasional biasa menjadi seakurat uji coba klinis eksperimental (*Randomized Controlled Trial / RCT*). Kuncinya adalah **Propensity Score** ($P(T=1|X)$).
 
 *Propensity score* adalah probabilitas bersyarat seorang warga untuk terpapar gaya hidup buruk (misal merokok aktif) berdasarkan profil latar belakang demografi dan genetiknya. Begitu skor ini dihitung melalui *Logistic Regression*, kita dapat menyeimbangkan populasi menggunakan 2 teknik standar emas:
 
