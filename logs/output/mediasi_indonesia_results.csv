@@ -1,0 +1,7 @@
+Komponen Jalur Kausal,Koefisien Estimasi
+Jalur a (Treatment -> Mediator),-0.0002
+"Jalur b (Mediator -> Outcome | T,C)",0.2897
+Direct Effect (c'),0.1936
+Indirect Effect (a * b),-0.0
+Total Effect (c),0.1935
+Proporsi Dimediasi (%),-0.03

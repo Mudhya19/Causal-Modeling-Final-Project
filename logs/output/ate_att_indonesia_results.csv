@@ -1,0 +1,4 @@
+Variabel Intervensi (Treatment),Kategori Perlakuan (T=1),Naive_Diff (Korelasi Mentah),ATE_IPW (Dampak Kausal Populasi),ATT_Matching (Dampak Kausal Subgrup),Sampel Pasangan Matched
+smoking_status,Current,0.1931,0.1935,0.1609,39771
+dietary_habits,Unhealthy,-0.0053,-0.0054,0.0057,95030
+air_pollution_exposure,High,-0.0014,-0.0007,-0.016,31856
