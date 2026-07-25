@@ -34,11 +34,11 @@ def create_notebook():
 | Semester | Genap TA 2025/2026 |
 | Dosen | Dr. Ahmad Luthfi, S.Kom., M.Kom. |
 | Mata Kuliah | Pemodelan Kausal |
-| Tugas | Proyek Tugas Akhir Analitik Teks |
+| Tugas | Proyek Tugas Akhir Pemodelan Kausal |
 | Nama | Muhammad Dhiauddin |
 | NIM | 25917024 |
 | Konsentrasi | Sains Data - Profesional |
-| GitHub Repository | Link Nyusul |
+| GitHub Repository | [Mudhya19/Causal-Modeling-Final-Project](https://github.com/Mudhya19/Causal-Modeling-Final-Project) |
 | Kaggle Dataset | [Heart Attack Prediction in Indonesia Dataset](https://www.kaggle.com/datasets/ankushpanday2/heart-attack-prediction-in-indonesia) |
 
 ---
